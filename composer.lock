@@ -1,0 +1,240 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "c81ffef118762415d649ace5b390664d",
+    "packages": [
+        {
+            "name": "aternos/model",
+            "version": "v1.1.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/aternosorg/php-model.git",
+                "reference": "a474d7bad3d63b540bff5c37cf3df5c63be50db6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/aternosorg/php-model/zipball/a474d7bad3d63b540bff5c37cf3df5c63be50db6",
+                "reference": "a474d7bad3d63b540bff5c37cf3df5c63be50db6",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "php": ">=7.4"
+            },
+            "require-dev": {
+                "elasticsearch/elasticsearch": "^7.10",
+                "ext-cassandra": "*",
+                "ext-mysqli": "*",
+                "ext-redis": "*"
+            },
+            "suggest": {
+                "elasticsearch/elasticsearch": "To use the Elasticsearch Search driver",
+                "ext-cassandra": "To use the Cassandra NoSQL driver",
+                "ext-mysqli": "To use the Mysqli Relational driver",
+                "ext-redis": "To use the Redis Cache driver"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Aternos\\Model\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Matthias Neid",
+                    "email": "matthias@aternos.org"
+                }
+            ],
+            "description": "PHP library for simple and complex database models",
+            "keywords": [
+                "database",
+                "model"
+            ],
+            "support": {
+                "issues": "https://github.com/aternosorg/php-model/issues",
+                "source": "https://github.com/aternosorg/php-model"
+            },
+            "time": "2022-02-10T10:17:01+00:00"
+        },
+        {
+            "name": "bramus/router",
+            "version": "1.6.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bramus/router.git",
+                "reference": "55657b76da8a0a509250fb55b9dd24e1aa237eba"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bramus/router/zipball/55657b76da8a0a509250fb55b9dd24e1aa237eba",
+                "reference": "55657b76da8a0a509250fb55b9dd24e1aa237eba",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "~2.14",
+                "phpunit/php-code-coverage": "~2.0",
+                "phpunit/phpunit": "~4.8"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Bramus": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Bram(us) Van Damme",
+                    "email": "bramus@bram.us",
+                    "homepage": "http://www.bram.us"
+                }
+            ],
+            "description": "A lightweight and simple object oriented PHP Router",
+            "homepage": "https://github.com/bramus/router",
+            "keywords": [
+                "router",
+                "routing"
+            ],
+            "support": {
+                "issues": "https://github.com/bramus/router/issues",
+                "source": "https://github.com/bramus/router/tree/1.6.1"
+            },
+            "time": "2021-11-18T19:24:07+00:00"
+        },
+        {
+            "name": "devanych/view-renderer",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/devanych/view-renderer.git",
+                "reference": "c9d3828f34a029dd92360a74097ddf2833048b1b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/devanych/view-renderer/zipball/c9d3828f34a029dd92360a74097ddf2833048b1b",
+                "reference": "c9d3828f34a029dd92360a74097ddf2833048b1b",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.4|^8.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^9.5",
+                "squizlabs/php_codesniffer": "^3.5",
+                "vimeo/psalm": "^4.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Devanych\\View\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Evgeniy Zyubin",
+                    "email": "mail@devanych.ru",
+                    "homepage": "https://devanych.ru/",
+                    "role": "Founder and lead developer"
+                }
+            ],
+            "description": "Simple PHP View Renderer",
+            "keywords": [
+                "native-php-templates",
+                "php",
+                "templates",
+                "view-renderer",
+                "views"
+            ],
+            "support": {
+                "issues": "https://github.com/devanych/view-rendererissues?state=open",
+                "source": "https://github.com/devanych/view-renderer"
+            },
+            "time": "2020-12-12T18:29:54+00:00"
+        },
+        {
+            "name": "rych/phpass",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/rchouinard/phpass.git",
+                "reference": "9519feb5aaece801cfb32f15dc2ddeb30ccacc65"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/rchouinard/phpass/zipball/9519feb5aaece801cfb32f15dc2ddeb30ccacc65",
+                "reference": "9519feb5aaece801cfb32f15dc2ddeb30ccacc65",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.7"
+            },
+            "suggest": {
+                "ext-hash": "Some modules and features may require the HASH Message Digest Framework extension in order to work.",
+                "ext-openssl": "The OpenSSL extension is used as a secure source of random data."
+            },
+            "default-branch": true,
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.1-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Phpass": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ryan Chouinard",
+                    "email": "rchouinard@gmail.com",
+                    "homepage": "http://ryanchouinard.com"
+                }
+            ],
+            "description": "PHP Password Library: Easy, secure password management for PHP",
+            "homepage": "https://github.com/rchouinard/phpass",
+            "keywords": [
+                "cryptography",
+                "password"
+            ],
+            "support": {
+                "issues": "https://github.com/rchouinard/phpass/issues",
+                "source": "https://github.com/rchouinard/phpass/tree/master",
+                "wiki": "https://github.com/rchouinard/phpass/wiki"
+            },
+            "time": "2014-09-08T14:20:42+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "rych/phpass": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.2.0"
+}
