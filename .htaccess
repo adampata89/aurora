@@ -1,0 +1,10 @@
+Options +FollowSymLinks
+RewriteEngine On
+
+AddType text/css .css
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-1
+RewriteRule ^(.*)$ index.php/$1
+
